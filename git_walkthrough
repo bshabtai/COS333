@@ -1,4 +1,5 @@
 HOW TO GIT
+To interface with github from a shell:
 cd to the parent directory of where you want this COS333 directory to go
 type 'git init'
 type 'git pull https://github.com/bshabtai/COS333'
