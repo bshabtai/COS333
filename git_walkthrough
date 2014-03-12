@@ -12,3 +12,4 @@ type git push
 enter login info
 If you only edit a file in the repo (not adding a new file) you don't have to doa 'git add filename' command
 
+Note that every time you open up the shell to edit, you should do a 'git pull' to update to the most recent version of the database.
