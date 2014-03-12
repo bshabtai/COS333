@@ -1,15 +1,24 @@
 HOW TO GIT
 To interface with github from a shell:
+
+First download this directory ("repo"):
 cd to the parent directory of where you want this COS333 directory to go
 type 'git init'
 type 'git clone https://github.com/bshabtai/COS333'
 cd COS333
 now you have the most recent version of the directory
 note you only have to do this one time, just to download this directory
+you can change the name of this directory on your machine (with an mv COS333 newDirName) without affecting the repo
+
+then, from within the directory, you can add/edit files and push them to github.
+just for adding a file:
 after creating a new file called filename and editing type 'git add filename'
-type 'git commit -a -m "message about file"'
+
+adding/editing a file:
+type 'git commit -a -m "message about file"' (-a adds all files that are part of repo, -m is for the message)
 type git push
 enter login info
-If you only edit a file in the repo (not adding a new file) you don't have to doa 'git add filename' command
 
 Note that every time you open up the shell to edit, you should do a 'git pull' to update to the most recent version of the database.
+
+there's also a github application for windows. i'm not too familiar with it, but it has a nice gui and lets you push files on the pc.
