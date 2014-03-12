@@ -1,12 +1,15 @@
 HOW TO GIT
+To interface with github from a shell:
 cd to the parent directory of where you want this COS333 directory to go
 type 'git init'
-type 'git pull https://github.com/bshabtai/COS333'
+type 'git clone https://github.com/bshabtai/COS333'
 cd COS333
 now you have the most recent version of the directory
+note you only have to do this one time, just to download this directory
 after creating a new file called filename and editing type 'git add filename'
 type 'git commit -a -m "message about file"'
 type git push
 enter login info
 If you only edit a file in the repo (not adding a new file) you don't have to doa 'git add filename' command
 
+Note that every time you open up the shell to edit, you should do a 'git pull' to update to the most recent version of the database.
